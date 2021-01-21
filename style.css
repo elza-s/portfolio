@@ -1,0 +1,72 @@
+header {
+  height: 100vh;
+}
+
+.social-icon {
+  top: 10px;
+  right: 20px;
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+
+.social-icon li {
+  list-style: none;
+  display: inline-block;
+}
+
+.social-icon li a {
+  text-decoration: none;
+  color: #2d2a2a;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.social-icon li a:hover {
+  color: #f16b11;
+}
+
+.title h1 {
+  color: gray;
+  font-size: 100px;
+}
+
+.title p {
+  color: gray;
+  font-size: 60px;
+}
+
+.title p:hover {
+  color: #f16b11;
+}
+
+/* .title {
+  height: 100vh;
+  background: rgb(241, 107, 17);
+  background: linear-gradient(
+    306deg,
+    rgba(241, 107, 17, 1) 0%,
+    rgba(244, 165, 112, 1) 13%,
+    rgba(255, 255, 255, 1) 44%
+  );
+}
+
+.about {
+  background: rgb(241, 107, 17);
+  background: linear-gradient(
+    215deg,
+    rgba(241, 107, 17, 1) 0%,
+    rgba(244, 165, 112, 1) 13%,
+    rgba(255, 255, 255, 1) 44%
+  );
+} */
+/* 
+.logo img {
+  width: 50px;
+  height: 200px;
+}*/
+
+.logo .mern img {
+  width: 20px;
+}
