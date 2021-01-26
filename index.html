@@ -6,19 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Elza Portfolio</title>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
+  <!-- Bootstrap Styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <!-- Custom Styles -->
   <link rel="icon" type="image/icon" href="/assets/favicon.ico">
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="container-fluid">
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;"">
-    <a class=" navbar-brand" href="index.html">
-      <img src="./assets/favicon-32x32.png" alt="es logo">
+<body>
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class=" navbar-brand" href="index.html">
+        <img src="./assets/logo.png" width="50" height="50" alt="es logo">
       </a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -46,13 +50,12 @@
         </ul>
 
         <ul class="social-icon ml-lg-3">
-          <li><a href="https://www.linkedin.com/in/elzas/" class="fab fa-linkedin-in" target="_blank"
-              title="Linkedin"></a>
+          <li><a href="https://www.linkedin.com/in/elzas/" target="_blank" title="Linkedin"><i
+                class="fab fa-linkedin-in"></i></a>
           </li>
-          <li><a href="https://github.com/elza-s" class="fab fa-github" target="_blank" title="GitHub"></a>
+          <li><a href="https://github.com/elza-s" target="_blank" title="GitHub"><i class="fab fa-github "></i></a>
           </li>
-          <li><a href="/resume/Elza-Somu-Resume.pdf" class="fas fa-file" title="Resume" target="_blank"></a>
-          </li>
+          <li><a href=""><i class="fab fa-twitter "></i></a></li>
         </ul>
       </div>
     </nav>
@@ -60,23 +63,26 @@
     <section class="title">
       <h1>Elza Somu</h1>
       <p>Front-End Developer</p>
-
+      <a href="./assets/Elza Somu- Jr.Front End Developer.pdf" type="button" class="btn btn-outline-secondary btn-lg"
+        target="_blank">Resume</a>
     </section>
   </header>
 
-  <section class="about">
-    <div class="row">
-      <div class="col-sm">
+  <section class="about-skills container-fluid">
+    <div class="row ">
+      <div class="col-md about">
         <h2>About</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum unde eveniet quasi rerum enim
           soluta obcaecati autem
           ad ullam consectetur fugiat expedita iusto voluptates illo cupiditate, impedit earum perspiciatis! Maiores.
-        </p>
+          </p§>
       </div>
-      <div class="col-sm">
+      <div class="col-md">
         <h2>Skills</h2>
-        <img class="col-8" src="./assets/logo/stack.jpg" alt="html5 logo">
-        <img class="col-8" src="./assets/logo/MERN.png" alt="mern">
+        <div class="row">
+          <img class="col-md-12 logo" src="./assets/logo/stack.jpg" alt="html5 logo">
+          <img class="col-md-12 logo" src="./assets/logo/MERN.png" alt="mern">
+        </div>
       </div>
     </div>
     </div>
@@ -84,14 +90,83 @@
 
   </section>
 
+  <section class="portfolio" id="class">
+    <div class="container">
+      <h2 class="h2">Portfolio</h2>
+      <div class="row">
+        <!-- Weather App -->
+        <div class="card col-lg-6">
+          <img class="card-img-top" src="./assets/images/weather.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">React | JavaScript | Bootstrap | HTML | CSS
+            </p>
+            <p class="card-text">A weather app which allows the user to check for any location and it will provide them
+              with the current temperature of
+              the location.
+            </p>
+            <a href="https://weather-radar.netlify.app/" target="_blank" class="card-link">Demo</a>
+            <a href="https://github.com/elza-s/Weather-App-React" target="_blank" class="card-link">Code</a>
+          </div>
+        </div>
+
+        <!-- Travelogue -->
+        <div class="card col-lg-5">
+          <img class="card-img-top" src="./assets/images/travelogue.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Travelogue</h5>
+            <p class="card-text">Node.js | JavaScript | Bootstrap | HTML | CSS
+            </p>
+            <p class="card-text">A Travel Diary App, a space to consolidate their travel plans and history, like a
+              virtual scratch map.
+            </p>
+            <a href="https://trav-e-logue.herokuapp.com/" target="_blank" class="card-link">Demo</a>
+            <a href="https://github.com/elza-s/Travelogue-App" target="_blank" class="card-link">Code</a>
+          </div>
+        </div>
+        <!--  -->
+        <div class="card col-lg-5">
+          <img class="card-img-top" src="./assets/images/travelogue.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Travelogue</h5>
+            <p class="card-text">Node.js | JavaScript | Bootstrap | HTML | CSS
+            </p>
+            <p class="card-text">A Travel Diary App, a space to consolidate their travel plans and history, like a
+              virtual scratch map.
+            </p>
+            <a href="https://trav-e-logue.herokuapp.com/" target="_blank" class="card-link">Demo</a>
+            <a href="https://github.com/elza-s/Travelogue-App" target="_blank" class="card-link">Code</a>
+          </div>
+        </div>
+        <!--  -->
+        <div class="card col-lg-6">
+          <img class="card-img-top" src="./assets/images/travelogue.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Travelogue</h5>
+            <p class="card-text">Node.js | JavaScript | Bootstrap | HTML | CSS
+            </p>
+            <p class="card-text">A Travel Diary App, a space to consolidate their travel plans and history, like a
+              virtual scratch map.
+            </p>
+            <a href="https://trav-e-logue.herokuapp.com/" target="_blank" class="card-link">Demo</a>
+            <a href="https://github.com/elza-s/Travelogue-App" target="_blank" class="card-link">Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
 
 
+  <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
     crossorigin="anonymous"></script>
+
+  <!-- Font Awesome Script -->
   <script src="https://kit.fontawesome.com/04bb019abc.js" crossorigin="anonymous"></script>
 </body>
 

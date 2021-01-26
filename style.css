@@ -1,12 +1,25 @@
 header {
   height: 100vh;
 }
+/* Navigation Styles */
+.navbar {
+  padding: 0 0 150px;
+}
 
+.navbar-nav {
+  line-height: 1.5;
+  padding-top: 2px;
+}
+
+.nav-item {
+  font-size: 20px;
+  padding: 0 25px;
+}
 .social-icon {
   top: 10px;
   right: 20px;
   padding: 0;
-  margin: 5px 0 0 0;
+  margin: 1px 0 0 0;
 }
 
 .social-icon li {
@@ -28,12 +41,12 @@ header {
 }
 
 .title h1 {
-  color: gray;
+  color: rgb(128, 128, 128);
   font-size: 100px;
 }
 
 .title p {
-  color: gray;
+  color: rgb(128, 128, 128);
   font-size: 60px;
 }
 
@@ -41,32 +54,51 @@ header {
   color: #f16b11;
 }
 
-/* .title {
-  height: 100vh;
-  background: rgb(241, 107, 17);
-  background: linear-gradient(
-    306deg,
-    rgba(241, 107, 17, 1) 0%,
-    rgba(244, 165, 112, 1) 13%,
-    rgba(255, 255, 255, 1) 44%
-  );
+.logo .mern img {
+  width: 20px;
+}
+
+/* About Section & Skills */
+.about-skills {
+  padding: 20px;
+  margin-bottom: 50px;
 }
 
 .about {
-  background: rgb(241, 107, 17);
-  background: linear-gradient(
-    215deg,
-    rgba(241, 107, 17, 1) 0%,
-    rgba(244, 165, 112, 1) 13%,
-    rgba(255, 255, 255, 1) 44%
-  );
-} */
-/* 
-.logo img {
-  width: 50px;
-  height: 200px;
-}*/
+  padding: 0 50px;
+  margin: 0 20px;
+}
 
-.logo .mern img {
-  width: 20px;
+.about p {
+  padding-right: 20px;
+}
+
+.logo {
+  max-width: 85%;
+}
+
+/* Portfolio styling */
+
+.portfolio {
+  /* margin: 50px 0; */
+  padding: 30px 0;
+}
+
+.portfolio .container {
+  border-top: 1px solid rgb(128, 128, 128);
+}
+.portfolio .card {
+  width: 20 rem;
+  margin: 5px auto;
+}
+
+.portfolio img {
+  margin-top: 20px;
+  border: 2px solid #f16b11;
+  height: 350px;
+}
+
+.portfolio h2 {
+  text-align: center;
+  margin: 20px;
 }
