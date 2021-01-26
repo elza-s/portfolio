@@ -63,9 +63,12 @@ header {
   padding: 20px;
   margin: 50px 0;
   padding: 100px 0;
-  background-color: #dad8d8;
+  background-color: #f2f2ec;
 }
 
+.about-skills h2 {
+  padding-bottom: 20px;
+}
 .about {
   padding: 0 50px;
   margin: 0 20px;
@@ -75,8 +78,29 @@ header {
   padding-right: 20px;
 }
 
-.logo {
-  max-width: 85%;
+.skills i {
+  font-size: 100px;
+  padding-right: 50px;
+  margin-bottom: 30px;
+}
+.html {
+  color: #f16b11;
+}
+
+.css {
+  color: rgb(12, 102, 213);
+}
+
+.js {
+  color: rgb(239, 239, 0);
+}
+
+.bootstrap {
+  color: rgb(123, 3, 123);
+}
+.skills img {
+  height: 230px;
+  /* width: 250px; */
 }
 
 /* Portfolio styling */
@@ -105,15 +129,15 @@ header {
 /* Contact styling */
 #contact {
   padding: 30px 0;
-  background-color: #dad8d8;
+  background-color: #f2f2ec;
 }
 section .contact {
   text-align: center;
   margin: 50px;
 }
 
-section p,
-section h3 {
+#contact p,
+#contact h3 {
   text-align: center;
   margin-top: 20px;
 }
