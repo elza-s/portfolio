@@ -61,7 +61,9 @@ header {
 /* About Section & Skills */
 .about-skills {
   padding: 20px;
-  margin-bottom: 50px;
+  margin: 50px 0;
+  padding: 100px 0;
+  background-color: #dad8d8;
 }
 
 .about {
@@ -84,9 +86,6 @@ header {
   padding: 30px 0;
 }
 
-.portfolio .container {
-  border-top: 1px solid rgb(128, 128, 128);
-}
 .portfolio .card {
   width: 20 rem;
   margin: 5px auto;
@@ -100,5 +99,36 @@ header {
 
 .portfolio h2 {
   text-align: center;
-  margin: 20px;
+  margin-bottom: 50px;
+}
+
+/* Contact styling */
+#contact {
+  padding: 30px 0;
+  background-color: #dad8d8;
+}
+section .contact {
+  text-align: center;
+  margin: 50px;
+}
+
+section p,
+section h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+.contact a {
+  padding: 20px;
+  color: #6f6a6a;
+}
+.contact a:hover {
+  color: #f16b11;
+  font-size: larger;
+}
+
+/* Footer Styling */
+
+footer p {
+  text-align: center;
+  color: #b8b6b1;
 }
