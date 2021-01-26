@@ -68,6 +68,7 @@ header {
 
 .about-skills h2 {
   padding-bottom: 20px;
+  color: rgb(108, 107, 107);
 }
 .about {
   padding: 0 50px;
@@ -76,6 +77,9 @@ header {
 
 .about p {
   padding-right: 20px;
+  width: 90%;
+  font-size: 22px;
+  color: #6f6a6a;
 }
 
 .skills i {
@@ -124,6 +128,7 @@ header {
 .portfolio h2 {
   text-align: center;
   margin-bottom: 50px;
+  color: rgb(108, 107, 107);
 }
 
 /* Contact styling */
@@ -140,6 +145,7 @@ section .contact {
 #contact h3 {
   text-align: center;
   margin-top: 20px;
+  color: rgb(108, 107, 107);
 }
 .contact a {
   padding: 20px;
