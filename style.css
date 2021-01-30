@@ -62,6 +62,10 @@ header {
 }
 
 /* About Section & Skills */
+
+.hidden {
+  display: none;
+}
 .about-skills {
   padding: 20px;
   margin: 50px 0;
