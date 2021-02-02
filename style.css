@@ -1,5 +1,5 @@
 header {
-  height: 90vh;
+  height: 100vh;
 }
 /* Navigation Styles */
 .navbar {
@@ -90,9 +90,10 @@ header {
 }
 
 .skills i {
-  font-size: 100px;
+  font-size: 30px;
   padding-right: 50px;
   margin-bottom: 30px;
+  margin: 0 auto;
 }
 .html {
   color: #f16b11;
@@ -109,15 +110,11 @@ header {
 .bootstrap {
   color: rgb(123, 3, 123);
 }
-.skills img {
-  height: 230px;
-  /* width: 250px; */
-}
 
 /* Portfolio styling */
 
 .portfolio {
-  margin: 15rem 0;
+  margin: 8rem 0;
   padding: 30px 0;
 }
 
