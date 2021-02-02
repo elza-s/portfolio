@@ -117,12 +117,12 @@ header {
 /* Portfolio styling */
 
 .portfolio {
-  /* margin: 50px 0; */
+  margin: 15rem 0;
   padding: 30px 0;
 }
 
 .portfolio .card {
-  width: 20 rem;
+  width: 20rem;
   margin: 5px auto;
 }
 
@@ -178,4 +178,18 @@ footer p {
   text-align: center;
   color: #b8b6b1;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .portfolio {
+    margin-top: 20rem;
+  }
+
+  .avatar2 {
+    visibility: hidden;
+    display: none;
+  }
+  /* .contact {
+    margin-bottom: -50px;
+  } */
 }
