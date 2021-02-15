@@ -84,7 +84,8 @@ header {
 
 .about-skills h2 {
   padding-bottom: 20px;
-  color: rgb(108, 107, 107);
+  color: #2d2a2a;
+  text-align: center;
 }
 .about {
   padding: 0 50px;
@@ -98,28 +99,35 @@ header {
   color: #6f6a6a;
 }
 
+.background {
+  background-color: rgba(230, 230, 230, 0.8);
+  margin: 5px;
+  padding: 50px;
+}
 .skills i {
   font-size: 30px;
   padding-right: 50px;
   margin-bottom: 30px;
   margin: 0 auto;
 }
-.html {
+
+.skill-title {
   color: #f16b11;
+  margin: 10px 0;
+  border-bottom: 1px solid #6f6a6a;
+  margin-bottom: 20px;
 }
 
-.css {
-  color: rgb(12, 102, 213);
+.skill-title p,
+.skill-title + p {
+  font-size: 30px;
+  color: #6f6a6a;
 }
 
-.js {
-  color: rgb(239, 239, 0);
+.backend i {
+  font-size: 50px;
+  margin: 0 auto;
 }
-
-.bootstrap {
-  color: rgb(123, 3, 123);
-}
-
 /* Portfolio styling */
 
 .portfolio {
