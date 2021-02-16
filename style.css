@@ -204,12 +204,33 @@ footer p {
     margin-bottom: -50px;
   } */
 
-  div .avatar1 {
-    margin: 0 auto;
+  .ava-container {
+    text-align: center;
   }
 
   img.avatar1 {
-    border-radius: 100%;
-    /* margin: 0 auto; */
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0 1px;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    margin: 50px 0 0 0;
+  }
+
+  .skills {
+    text-align: center;
+  }
+
+  .backend i,
+  .frontend i,
+  .dev i {
+    font-size: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .hide {
+    visibility: hidden;
   }
 }
