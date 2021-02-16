@@ -1,11 +1,8 @@
-header {
+/* header {
   height: 100vh;
-}
+} */
 
 /* Navigation Styles */
-/* .navbar {
-  padding: 0 0 0px;
-} */
 
 .navbar-nav {
   line-height: 1.5;
@@ -206,4 +203,13 @@ footer p {
   /* .contact {
     margin-bottom: -50px;
   } */
+
+  div .avatar1 {
+    margin: 0 auto;
+  }
+
+  img.avatar1 {
+    border-radius: 100%;
+    /* margin: 0 auto; */
+  }
 }
