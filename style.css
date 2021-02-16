@@ -109,7 +109,7 @@
 }
 
 .skill-title {
-  color: #f16b11;
+  color: #6f6a6a;
   margin: 10px 0;
   border-bottom: 1px solid #6f6a6a;
   margin-bottom: 20px;
@@ -121,9 +121,12 @@
   color: #6f6a6a;
 }
 
-.backend i {
-  font-size: 50px;
+.backend i,
+.frontend i,
+.dev i {
+  font-size: 60px;
   margin: 0 auto;
+  color: #94bdb3;
 }
 /* Portfolio styling */
 
@@ -225,9 +228,16 @@ footer p {
   .backend i,
   .frontend i,
   .dev i {
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .backend i,
+  .frontend i,
+  .dev i {
     font-size: 100px;
-    padding: 10px;
-    margin-bottom: 20px;
   }
 
   .hide {
