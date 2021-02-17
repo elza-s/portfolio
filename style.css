@@ -142,8 +142,9 @@
 
 .portfolio img {
   margin-top: 20px;
-  border: 2px solid #f16b11;
-  height: 350px;
+  /* border: 2px solid #e1dfda; */
+  /* width: 440px; */
+  /* height: 350px; */
 }
 
 .portfolio h2 {
